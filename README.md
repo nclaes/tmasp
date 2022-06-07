@@ -21,19 +21,31 @@ pip3 install wandb
 
 4) Comment and uncomment the following depending on the dataset under consideration in files UserSetup.h and UserSetup2.h. For example, below the configuration represents setting for MNIST, Fashion MNIST and Kuzushiji-MNIST which have 784 features, 10 classes, 60k training samples and 10k testing samples.
 
+CIFAR2:
 // #define CLASSES 2
+
 // #define FEATURES 1024
+
 // #define NUMBER_OF_EXAMPLES 50000
+
 // #define NUMBER_OF_VALI_EXAMPLES 10000
 
+KWS6:
 // #define CLASSES 6
+
 // #define FEATURES 377
+
 // #define NUMBER_OF_EXAMPLES 15000
+
 // #define NUMBER_OF_VALI_EXAMPLES 3120
 
+MNIST, FMNIST, KMNIST:
 #define CLASSES 10
+
 #define FEATURES 784
+
 #define NUMBER_OF_EXAMPLES 60000
+
 #define NUMBER_OF_VALI_EXAMPLES 10000
 
 ## Run
