@@ -19,7 +19,7 @@ pip3 install wandb
 
 3) Extract Boolean_datasets.zip in the same folder. Select the dataset from /Boolean_datasets and put the file path into search.c in lines 28 and 45 for training and testing dataset respectively. 
 
-4) Comment and uncomment the following depending on the dataset under consideration in files UserSetup.h and UserSetup2.h. For example, below the configuration represents setting for MNIST, Fashion MNIST and Kuzushiji-MNIST which have 784 features, 10 classes, 60k training samples and 10k testing samples.
+4) Comment and uncomment the following depending on the dataset under consideration in files UserSetup.h and UserSetup2.h. For example, below the configuration represents setting for MNIST, Fashion MNIST and Kuzushiji-MNIST which have 784 features, 10 classes, 60k training samples and 10k testing samples. While the configurations for CIFAR2 and KWS6 are commented out.
 
 CIFAR2:
 
