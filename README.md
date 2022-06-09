@@ -81,3 +81,5 @@ and select the edit option. Then use the 'Add a column' (as seen below) to find 
 
 For any queries please contact Tousif Rahman: S.Rahman@newcastle.ac.uk
 Other contacts: sidharth.maheshwari@newcastle.ac.uk, rishad.shafik@newcastle.ac.uk
+
+This code is restructured and modified by Tousif Rahman and Sidharth Maheshwari, Newcastle University, and, is originally written by Prof. Ole--Christoffer Granmo, University of Agder.
